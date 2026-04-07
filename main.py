@@ -5,27 +5,28 @@ import threading
 lock = threading.Lock()
 
 CAA = {
-    '1': 'Socorro ou ajuda',
-    '2': 'Estou com dor',
-    '3': 'Estou assustado',
-    '4': 'Estou passando mal',
-    'q': 'Quero água',
-    'w': 'Quero comer',
-    'e': 'Quero ir ao banheiro',
-    'r': 'Quero dormir',
-    'a': 'Estou feliz',
-    's': 'Estou triste',
-    'd': 'Estou ansioso',
-    'z': 'Olá',
+    '1': 'Preciso de ajuda',
+    '3': 'Estou com dor',
+    '5': 'Estou assustado',
+    '7': 'Estou passando mal',
+    's': 'Estou com sede',
+    'f': 'Estou com fome',
+    'h': 'Quero ir ao banheiro',
+    'a': 'Quero descansar',
+    '9': 'Estou feliz',
+    '-': 'Estou triste',
+    '=': 'Estou ansioso',
+    'v': 'Olá',
     'x': 'Sim',
-    'c': 'Não',
-    'v': 'Obrigado',
-    'b': 'Repetir, por favor',
-    'f': 'Quero brincar',
-    'g': 'Quero assistir',
-    'h': 'Quero ir pra casa',
-    'j': 'Quero meu objeto',
-    'k': 'Quero silêncio'
+    '\\': 'Não',
+    'm': 'Obrigado',
+    'b': 'Você pode repetir por favor?',
+    'ç': 'Quero brincar',
+    '/': 'Quero assistir',
+    '.': 'Quero ir para casa',
+    ']': 'Quero meu objeto',
+    'k': 'Quero silêncio',
+    '0': 'Muito obrigado pela atenção de todos, tenham uma boa noite!'
 }
 
 def falar_texto(texto):
@@ -35,7 +36,7 @@ def falar_texto(texto):
             
         with lock:
             engine = pyttsx3.init()
-            engine.setProperty('rate', 170)
+            engine.setProperty('rate', 200)
             engine.say(texto)
             engine.runAndWait()
             engine.stop()
