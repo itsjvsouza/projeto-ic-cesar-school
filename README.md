@@ -1,9 +1,9 @@
-# Projeto Teclado CAA
-Projeto desenvolvido na cadeira de Introdução à Computação no primeiro período da graduação de Sistemas de Informação na CESAR School.
+# CAA Keyboard Project
+Project developed for the Introduction to Computing course during the first semester of the Information Systems undergraduate program at CESAR School.
 
-## Descrição
-O desafio proposto foi de reciclar de forma criativa um componente de computador (hardware ou periférico), transformando-o em outro objeto.
+## Description
+The challenge proposed was to creatively recycle a computer component (hardware or peripheral), transforming it into a new object.
 
-O projeto consiste em um teclado físico modificado que utiliza a Comunicação Aumentativa e Alternativa (CAA), utilizada para auxiliar pessoas com dificuldades severas de fala ou linguagem. O teclado utiliza 21 teclas com 4 vezes a área de uma tecla comum, ilustradas com imagens descritivas que emitem frases quando pressionadas utilizando a
+This project consists of a modified physical keyboard that utilizes Augmentative and Alternative Communication (AAC)—a method used to assist individuals with severe speech or language difficulties. The keyboard features 21 keys, each with four times the surface area of a standard key. These are illustrated with descriptive images that trigger specific phrases when pressed.
 
-[Imagem do teclado](https://drive.google.com/file/d/1LSynni7IXYI4Dsq1h4SNYZAxG7w1WNOj/view?usp=sharing)
+[Keyboard Image](https://drive.google.com/file/d/1LSynni7IXYI4Dsq1h4SNYZAxG7w1WNOj/view?usp=sharing)
